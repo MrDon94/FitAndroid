@@ -1,4 +1,4 @@
-package com.anton.fitandroid.marshmallow;
+package com.github.fitandroid.marshmallow;
 
 public interface IPermissionListenerWrap {
     public interface IEachPermissionListener {

@@ -1,4 +1,4 @@
-package com.anton.fitandroid.nougat;
+package com.github.fitandroid.nougat;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;

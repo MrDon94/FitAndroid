@@ -1,4 +1,4 @@
-package com.anton.fitandroid.marshmallow;
+package com.github.fitandroid.marshmallow;
 import android.annotation.TargetApi;
 import android.content.pm.PackageManager;
 import android.os.Build;

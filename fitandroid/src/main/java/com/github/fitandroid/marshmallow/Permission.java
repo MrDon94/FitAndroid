@@ -1,4 +1,4 @@
-package com.anton.fitandroid.marshmallow;
+package com.github.fitandroid.marshmallow;
 
 public class Permission {
     public final String name;

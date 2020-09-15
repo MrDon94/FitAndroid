@@ -1,4 +1,4 @@
-package com.anton.fitandroid.marshmallow;
+package com.github.fitandroid.marshmallow;
 
 import android.os.Build;
 import android.support.annotation.NonNull;
