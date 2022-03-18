@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.fitandroid">
-
+    <!--  创建一个前台服务需要请求 FOREGROUND_SERVICE 权限，否则系统会引发 SecurityException  -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <application
+        android:requestLegacyExternalStorage="true"
         android:networkSecurityConfig="@xml/network_security_config">
         <provider
             android:name="android.support.v4.content.FileProvider"

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
+    <!--在9.0中默认情况下启用网络传输层安全协议 (TLS)，默认情况下已停用明文支持。也就是不允许使用http请求，要求使用https。-->
     <base-config cleartextTrafficPermitted="true" />
 </network-security-config>
