@@ -16,8 +16,10 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.fitandroid.marshmallow.IPermissionListenerWrap;
+import com.github.fitandroid.marshmallow.Permission;
 import com.github.fitandroid.marshmallow.PermissionsHelper;
 import com.github.fitandroid.nougat.FileProvider7;
+import com.github.fitandroid.oreo.Permission8;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -44,7 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_permission:{
-                String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.CAMERA};
+                //安卓8.0之前的权限申请
+//                String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.CAMERA};
+                //安卓8.0之后建议按照权限组申请权限，以免漏掉权限
+                String[] permissions = Permission8.Group.STORAGE;
                 PermissionsHelper helper = new PermissionsHelper(this);
                 helper.request(permissions, new IPermissionListenerWrap.IPermissionListener() {
                     @Override
