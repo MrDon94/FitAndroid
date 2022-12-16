@@ -1,4 +1,4 @@
-package com.github.fitandroid;
+package com.github.fitandroid.demo;
 
 import android.Manifest;
 import android.content.Intent;
@@ -16,7 +16,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.fitandroid.marshmallow.IPermissionListenerWrap;
-import com.github.fitandroid.marshmallow.Permission;
 import com.github.fitandroid.marshmallow.PermissionsHelper;
 import com.github.fitandroid.nougat.FileProvider7;
 import com.github.fitandroid.oreo.Permission8;

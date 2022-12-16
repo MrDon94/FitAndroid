@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion rootProject.ext.compileSdk
     defaultConfig {
-        applicationId "com.github.fitandroid"
+        applicationId "com.github.fitandroid.demo"
         minSdkVersion rootProject.ext.minSdk
         targetSdkVersion rootProject.ext.targetSdk
         versionCode 1
@@ -28,6 +28,4 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.android.support.constraint:constraint-layout:2.0.1'
     implementation project(path: ':fitandroid')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-
 }
