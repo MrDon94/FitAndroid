@@ -15,7 +15,7 @@ buildscript {
     }
 
     ext {
-        minSdk = 21
+        minSdk = 16
         targetSdk = 29
         compileSdk = 29
     }
