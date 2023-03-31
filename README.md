@@ -4,7 +4,7 @@
 * Gradle 
   
    ```
-   implementation 'com.github.MrDon94:FitAndroid:1.0.0'
+   implementation 'com.github.MrDon94:FitAndroid:1.0.1'
    ```
 ## 目前已适配的功能
 * 安卓6.0动态权限
